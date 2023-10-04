@@ -9,8 +9,8 @@ restaurant_pattern = r'(.+?) - (.+?)'
 # Sample API response containing restaurant information
 api_response = "Welcome to Jean Paul's Dish - Rwanda's Cuisine. Enjoy our delicious potato dishes!"
 
-# Extract restaurant names and cuisine types using regex
 
+# Extract restaurant names and cuisine types using regex
 # Use the findall() method to extract matches
 matches = re.findall(restaurant_pattern, api_response)
 
