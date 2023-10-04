@@ -1,0 +1,14 @@
+#!/usr/bin/node
+
+const ingredients = "Ingredient1, Ingredient2, Ingredient3";
+const regex = /([^,]+(?:,\s*[^,]+)*)/g;
+let gowith;
+const getIngredients_recipe = [];
+while ((gowith = regex.exec(ingredients)) !== null) {
+    getIngredients_recipe.push(matches[1].trim());
+  }
+if (getIngredients_recipe.length > 0) {
+  console.log("Ingredients:", getIngredients_recipe);
+} else {
+  console.log("No ingredients found.");
+}
