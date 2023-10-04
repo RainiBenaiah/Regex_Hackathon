@@ -7,7 +7,7 @@ import re
 restaurant_pattern = r'(.+?) - (.+?)'
 
 # Sample API response containing restaurant information
-api_response = "Welcome to Jean Paul's Dish - Jean Paul's Cuisine. Enjoy our delicious potato dishes!"
+api_response = "Welcome to Jean Paul's Dish - Rwanda's Cuisine. Enjoy our delicious potato dishes!"
 
 # Extract restaurant names and cuisine types using regex
 
